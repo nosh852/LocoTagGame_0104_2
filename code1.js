@@ -30,7 +30,29 @@ gdjs.Game_32OverCode.GDRunScore_9595textObjects1= [];
 gdjs.Game_32OverCode.GDRunScore_9595textObjects2= [];
 
 
+gdjs.Game_32OverCode.asyncCallback12195668 = function (runtimeScene, asyncObjectsList) {
+asyncObjectsList.restoreLocalVariablesContainers(gdjs.Game_32OverCode.localVariables);
+{gdjs.evtTools.firebaseTools.firestore.writeField("UserInfo", gdjs.evtsExt__URLTools__URLQueryStringParameter.func(runtimeScene, gdjs.evtsExt__URLTools__CurrentURL.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), "uid", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), "coinScore", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)), gdjs.VariablesContainer.badVariable, true);
+}{gdjs.evtTools.firebaseTools.firestore.writeField("UserInfo", gdjs.evtsExt__URLTools__URLQueryStringParameter.func(runtimeScene, gdjs.evtsExt__URLTools__CurrentURL.func(runtimeScene, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), "uid", (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)), "runScore", gdjs.evtTools.variable.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)), gdjs.VariablesContainer.badVariable, true);
+}gdjs.Game_32OverCode.localVariables.length = 0;
+}
 gdjs.Game_32OverCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+{
+{
+const asyncObjectsList = new gdjs.LongLivedObjectsList();
+asyncObjectsList.backupLocalVariablesContainers(gdjs.Game_32OverCode.localVariables);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Game_32OverCode.asyncCallback12195668(runtimeScene, asyncObjectsList)));
+}
+}
+
+}
+
+
+};gdjs.Game_32OverCode.eventsList1 = function(runtimeScene) {
 
 {
 
@@ -45,7 +67,10 @@ gdjs.copyArray(runtimeScene.getObjects("FinalRunScore"), gdjs.Game_32OverCode.GD
 }{for(var i = 0, len = gdjs.Game_32OverCode.GDFinalRunScoreObjects1.length ;i < len;++i) {
     gdjs.Game_32OverCode.GDFinalRunScoreObjects1[i].getBehavior("Text").setText(runtimeScene.getGame().getVariables().getFromIndex(2).getAsString());
 }
-}}
+}
+{ //Subevents
+gdjs.Game_32OverCode.eventsList0(runtimeScene);} //End of subevents
+}
 
 }
 
@@ -84,7 +109,7 @@ gdjs.Game_32OverCode.GDCoins_9595textObjects2.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects1.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects2.length = 0;
 
-gdjs.Game_32OverCode.eventsList0(runtimeScene);
+gdjs.Game_32OverCode.eventsList1(runtimeScene);
 gdjs.Game_32OverCode.GDWarningObjects1.length = 0;
 gdjs.Game_32OverCode.GDWarningObjects2.length = 0;
 gdjs.Game_32OverCode.GDButton_9595AObjects1.length = 0;
