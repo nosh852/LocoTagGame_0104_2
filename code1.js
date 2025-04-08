@@ -58,7 +58,10 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5)
 
 
 let isConditionTrue_0 = false;
-{
+isConditionTrue_0 = false;
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(9069988);
+}
+if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("FinalCoinScore"), gdjs.Game_32OverCode.GDFinalCoinScoreObjects1);
 gdjs.copyArray(runtimeScene.getObjects("FinalRunScore"), gdjs.Game_32OverCode.GDFinalRunScoreObjects1);
 {for(var i = 0, len = gdjs.Game_32OverCode.GDFinalCoinScoreObjects1.length ;i < len;++i) {
