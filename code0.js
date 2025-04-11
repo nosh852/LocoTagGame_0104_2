@@ -116,6 +116,30 @@ gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects1= [];
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects2= [];
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects3= [];
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects4= [];
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects1= [];
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects2= [];
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects3= [];
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects4= [];
+gdjs.GameScene1Code.GDNewTiledSprite3Objects1= [];
+gdjs.GameScene1Code.GDNewTiledSprite3Objects2= [];
+gdjs.GameScene1Code.GDNewTiledSprite3Objects3= [];
+gdjs.GameScene1Code.GDNewTiledSprite3Objects4= [];
+gdjs.GameScene1Code.GDNewTiledSprite5Objects1= [];
+gdjs.GameScene1Code.GDNewTiledSprite5Objects2= [];
+gdjs.GameScene1Code.GDNewTiledSprite5Objects3= [];
+gdjs.GameScene1Code.GDNewTiledSprite5Objects4= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects1= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects3= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects4= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects1= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects3= [];
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects4= [];
+gdjs.GameScene1Code.GDNewTiledSprite4Objects1= [];
+gdjs.GameScene1Code.GDNewTiledSprite4Objects2= [];
+gdjs.GameScene1Code.GDNewTiledSprite4Objects3= [];
+gdjs.GameScene1Code.GDNewTiledSprite4Objects4= [];
 gdjs.GameScene1Code.GDButton_9595AObjects1= [];
 gdjs.GameScene1Code.GDButton_9595AObjects2= [];
 gdjs.GameScene1Code.GDButton_9595AObjects3= [];
@@ -1179,9 +1203,30 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = !runtimeScene.getScene().getVariables().getFromIndex(2).getAsBoolean();
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("Backgroun_B_W_final1"), gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final1Objects2);
-{for(var i = 0, len = gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final1Objects2.length ;i < len;++i) {
-    gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final1Objects2[i].setXOffset(gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final1Objects2[i].getXOffset() + (100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+gdjs.copyArray(runtimeScene.getObjects("Backdrop_frame_1"), gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2);
+gdjs.copyArray(runtimeScene.getObjects("Backdrop_frame_2"), gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2);
+{for(var i = 0, len = gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2.length ;i < len;++i) {
+    gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2[i].setXOffset(gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2[i].getXOffset() + (100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+}
+}{for(var i = 0, len = gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2.length ;i < len;++i) {
+    gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2[i].hide();
+}
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("Backdrop_frame_2"), gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2);
+{for(var i = 0, len = gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2.length ;i < len;++i) {
+    gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2[i].setXOffset(gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2[i].getXOffset() + (100 * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene)));
+}
+}{for(var i = 0, len = gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2.length ;i < len;++i) {
+    gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2[i].hide(false);
 }
 }}
 
@@ -2230,6 +2275,30 @@ gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects1.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects2.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects3.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects4.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects1.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects2.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects3.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects4.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects1.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects3.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects4.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects1.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects3.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects4.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects1.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects2.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects3.length = 0;
@@ -2400,6 +2469,30 @@ gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects1.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects2.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects3.length = 0;
 gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final2Objects4.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects1.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects2.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects3.length = 0;
+gdjs.GameScene1Code.GDBackgroun_9595B_9595W_9595final3Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite3Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite5Objects4.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects1.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects2.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects3.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95951Objects4.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects1.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects2.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects3.length = 0;
+gdjs.GameScene1Code.GDBackdrop_9595frame_95952Objects4.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects1.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects2.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects3.length = 0;
+gdjs.GameScene1Code.GDNewTiledSprite4Objects4.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects1.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects2.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects3.length = 0;
