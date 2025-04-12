@@ -56,7 +56,7 @@ gdjs.Start_95countdownCode.GDfloor2Objects2= [];
 gdjs.Start_95countdownCode.GDfloor2Objects3= [];
 
 
-gdjs.Start_95countdownCode.asyncCallback9461964 = function (runtimeScene, asyncObjectsList) {
+gdjs.Start_95countdownCode.asyncCallback12263876 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.Start_95countdownCode.localVariables);
 gdjs.Start_95countdownCode.localVariables.length = 0;
 }
@@ -69,7 +69,7 @@ gdjs.Start_95countdownCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.Start_95countdownCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Start_95countdownCode.asyncCallback9461964(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.3), (runtimeScene) => (gdjs.Start_95countdownCode.asyncCallback12263876(runtimeScene, asyncObjectsList)));
 }
 }
 
