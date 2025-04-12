@@ -28,8 +28,8 @@ gdjs.Game_32OverCode.GDCoins_9595textObjects1= [];
 gdjs.Game_32OverCode.GDCoins_9595textObjects2= [];
 gdjs.Game_32OverCode.GDRunScore_9595textObjects1= [];
 gdjs.Game_32OverCode.GDRunScore_9595textObjects2= [];
-gdjs.Game_32OverCode.GDLivesLeft2Objects1= [];
-gdjs.Game_32OverCode.GDLivesLeft2Objects2= [];
+gdjs.Game_32OverCode.GDfloor2Objects1= [];
+gdjs.Game_32OverCode.GDfloor2Objects2= [];
 
 
 gdjs.Game_32OverCode.asyncCallback15567812 = function (runtimeScene, asyncObjectsList) {
@@ -113,8 +113,8 @@ gdjs.Game_32OverCode.GDCoins_9595textObjects1.length = 0;
 gdjs.Game_32OverCode.GDCoins_9595textObjects2.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects1.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects2.length = 0;
-gdjs.Game_32OverCode.GDLivesLeft2Objects1.length = 0;
-gdjs.Game_32OverCode.GDLivesLeft2Objects2.length = 0;
+gdjs.Game_32OverCode.GDfloor2Objects1.length = 0;
+gdjs.Game_32OverCode.GDfloor2Objects2.length = 0;
 
 gdjs.Game_32OverCode.eventsList1(runtimeScene);
 gdjs.Game_32OverCode.GDWarningObjects1.length = 0;
@@ -145,8 +145,8 @@ gdjs.Game_32OverCode.GDCoins_9595textObjects1.length = 0;
 gdjs.Game_32OverCode.GDCoins_9595textObjects2.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects1.length = 0;
 gdjs.Game_32OverCode.GDRunScore_9595textObjects2.length = 0;
-gdjs.Game_32OverCode.GDLivesLeft2Objects1.length = 0;
-gdjs.Game_32OverCode.GDLivesLeft2Objects2.length = 0;
+gdjs.Game_32OverCode.GDfloor2Objects1.length = 0;
+gdjs.Game_32OverCode.GDfloor2Objects2.length = 0;
 
 
 return;

@@ -177,9 +177,7 @@ gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreE
 let isConditionTrue_0 = false;
 {
 gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDisplayedValue() + (eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getSpeed() * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * gdjs.evtTools.camera.getLayerTimeScale(runtimeScene, (gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1[i].getLayer()))));
-}
+{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDisplayedValue()+eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getSpeed() * gdjs.evtTools.runtimeScene.getElapsedTimeInSeconds(runtimeScene) * gdjs.evtTools.camera.getLayerTimeScale(runtimeScene, (( gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1.length === 0 ) ? "" :gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1[0].getLayer())))
 }}
 
 }
@@ -193,10 +191,7 @@ isConditionTrue_0 = false;
 {isConditionTrue_0 = (gdjs.evtTools.common.sign(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getSpeed()) == gdjs.evtTools.common.sign(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDisplayedValue() - eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue()));
 }
 if (isConditionTrue_0) {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.doStepPreEventsContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue());
-}
+{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue())
 }}
 
 }
@@ -395,16 +390,9 @@ gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueCo
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue());
-}
-}{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setCounterValue(eventsFunctionContext.getArgument("Value"));
-}
-}{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.SetValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setSpeed((eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue() - eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDisplayedValue()) / eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDuration());
-}
+{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue())
+}{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setCounterValue(eventsFunctionContext.getArgument("Value"))
+}{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setSpeed((eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue() - eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDisplayedValue()) / eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getDuration())
 }}
 
 }
@@ -498,10 +486,7 @@ gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.ResetDispl
 
 let isConditionTrue_0 = false;
 {
-gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.ResetDisplayedValueContext.GDObjectObjects1);
-{for(var i = 0, len = gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.ResetDisplayedValueContext.GDObjectObjects1.length ;i < len;++i) {
-    gdjs.evtsExt__RollingCounter__RollingCounter.RollingCounter.prototype.ResetDisplayedValueContext.GDObjectObjects1[i].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue());
-}
+{eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._setDisplayedValue(eventsFunctionContext.getObjects("Object")[0].getBehavior(eventsFunctionContext.getBehaviorName("Behavior"))._getCounterValue())
 }}
 
 }
