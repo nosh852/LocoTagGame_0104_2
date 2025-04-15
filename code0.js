@@ -2297,7 +2297,7 @@ gdjs.copyArray(runtimeScene.getObjects("soundToggle"), gdjs.GameScene1Code.GDsou
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 for (var i = 0, k = 0, l = gdjs.GameScene1Code.GDsoundToggleObjects1.length;i<l;++i) {
-    if ( !(gdjs.GameScene1Code.GDsoundToggleObjects1[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined))) ) {
+    if ( gdjs.GameScene1Code.GDsoundToggleObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
         gdjs.GameScene1Code.GDsoundToggleObjects1[k] = gdjs.GameScene1Code.GDsoundToggleObjects1[i];
         ++k;
