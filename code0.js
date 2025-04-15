@@ -198,6 +198,14 @@ gdjs.GameScene1Code.GDsoundToggleObjects1= [];
 gdjs.GameScene1Code.GDsoundToggleObjects2= [];
 gdjs.GameScene1Code.GDsoundToggleObjects3= [];
 gdjs.GameScene1Code.GDsoundToggleObjects4= [];
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1= [];
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2= [];
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects3= [];
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects4= [];
+gdjs.GameScene1Code.GDNewTextObjects1= [];
+gdjs.GameScene1Code.GDNewTextObjects2= [];
+gdjs.GameScene1Code.GDNewTextObjects3= [];
+gdjs.GameScene1Code.GDNewTextObjects4= [];
 gdjs.GameScene1Code.GDButton_9595AObjects1= [];
 gdjs.GameScene1Code.GDButton_9595AObjects2= [];
 gdjs.GameScene1Code.GDButton_9595AObjects3= [];
@@ -2268,20 +2276,20 @@ isConditionTrue_0 = false;
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("soundToggle"), gdjs.GameScene1Code.GDsoundToggleObjects2);
+gdjs.copyArray(runtimeScene.getObjects("SmallGreenPlasticRoundSwitch"), gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameScene1Code.GDsoundToggleObjects2.length;i<l;++i) {
-    if ( gdjs.GameScene1Code.GDsoundToggleObjects2[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2.length;i<l;++i) {
+    if ( gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2[i].IsChecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.GameScene1Code.GDsoundToggleObjects2[k] = gdjs.GameScene1Code.GDsoundToggleObjects2[i];
+        gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2[k] = gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2[i];
         ++k;
     }
 }
-gdjs.GameScene1Code.GDsoundToggleObjects2.length = k;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 0);
+{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 100);
 }
 { //Subevents
 gdjs.GameScene1Code.eventsList23(runtimeScene);} //End of subevents
@@ -2292,20 +2300,20 @@ gdjs.GameScene1Code.eventsList23(runtimeScene);} //End of subevents
 
 {
 
-gdjs.copyArray(runtimeScene.getObjects("soundToggle"), gdjs.GameScene1Code.GDsoundToggleObjects1);
+gdjs.copyArray(runtimeScene.getObjects("SmallGreenPlasticRoundSwitch"), gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1);
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-for (var i = 0, k = 0, l = gdjs.GameScene1Code.GDsoundToggleObjects1.length;i<l;++i) {
-    if ( gdjs.GameScene1Code.GDsoundToggleObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
+for (var i = 0, k = 0, l = gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1.length;i<l;++i) {
+    if ( gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1[i].HasJustBeenUnchecked((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined)) ) {
         isConditionTrue_0 = true;
-        gdjs.GameScene1Code.GDsoundToggleObjects1[k] = gdjs.GameScene1Code.GDsoundToggleObjects1[i];
+        gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1[k] = gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1[i];
         ++k;
     }
 }
-gdjs.GameScene1Code.GDsoundToggleObjects1.length = k;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1.length = k;
 if (isConditionTrue_0) {
-{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 100);
+{gdjs.evtTools.sound.setGlobalVolume(runtimeScene, 0);
 }
 { //Subevents
 gdjs.GameScene1Code.eventsList24(runtimeScene);} //End of subevents
@@ -2887,6 +2895,14 @@ gdjs.GameScene1Code.GDsoundToggleObjects1.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects2.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects3.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects4.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects3.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects4.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects1.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects2.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects3.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects4.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects1.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects2.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects3.length = 0;
@@ -3121,6 +3137,14 @@ gdjs.GameScene1Code.GDsoundToggleObjects1.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects2.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects3.length = 0;
 gdjs.GameScene1Code.GDsoundToggleObjects4.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects1.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects2.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects3.length = 0;
+gdjs.GameScene1Code.GDSmallGreenPlasticRoundSwitchObjects4.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects1.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects2.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects3.length = 0;
+gdjs.GameScene1Code.GDNewTextObjects4.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects1.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects2.length = 0;
 gdjs.GameScene1Code.GDButton_9595AObjects3.length = 0;
